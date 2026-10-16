@@ -1,0 +1,21 @@
+{
+    "formato":  1,
+    "resultado":  "TRANSFERENCIA_SINTETICA_VERIFICADA",
+    "fecha_utc":  "2026-10-16T17:59:20.2667589Z",
+    "herramienta_sintetica_sha256":  "068e73b0e98956f2040255871b0aa5f63404e8edb2f4d9e65e73ef695786ef89",
+    "herramienta_produccion_sha256":  "06fd959918246c176b8897aa51d9b9db32d86190d2022b8907a24f0dff4b3fc9",
+    "fuente_inicio_sha256":  "304a809f4b01bd3331e62c53538222ec9208798202be3f5c6ae67e6307ec5d32",
+    "fuente_herramienta_sha256":  "c0cbf7149d534d2157d30d0c50a49e0a1da9ad635e92a43404b06b5cab8914cb",
+    "escenarios":  {
+                       "transferencia_y_restauracion":  true,
+                       "despues_retirar":  true,
+                       "despues_registrar":  true,
+                       "preferencias_deshabilitadas":  true,
+                       "identidad_invalida_falla_cerrado":  true,
+                       "entrada_ajena_falla_cerrado":  true,
+                       "perfil_intacto":  true
+                   },
+    "registro":  "Software\\CorreoBlindado-Pruebas\\TransferenciaPropietario\\\u003caleatorio\u003e",
+    "perfil":  "sintetico",
+    "credenciales":  "no_consultadas"
+}
