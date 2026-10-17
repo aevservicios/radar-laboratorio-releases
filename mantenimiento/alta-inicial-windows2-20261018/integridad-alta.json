@@ -1,0 +1,57 @@
+{
+  "formato": 1,
+  "tipo": "mantenimiento_alta_inicial_no_version_producto",
+  "herramienta": {
+    "nombre": "TransferirPropietarioRadar.exe",
+    "bytes": 31232,
+    "sha256": "a395c5b5f8f92f92d4144871789bb46887300727a02db0b3d3ed49e829e2e645",
+    "firma_authenticode": "no_declarada",
+    "ejecutada_con_registro_real": false
+  },
+  "politica": {
+    "archivo": "alta-inicial-windows.json",
+    "sha256": "50e02c6ab4260a28604d8aaa0980ef7c845385af24d006134b8f4e989899ce8a"
+  },
+  "producto_intacto": {
+    "version": "1.0.0-pilot.1",
+    "zip_sha256": "088f884329814cb86c0cd60a04fc1e6d79f1ce48830e93a98c1a758b76fe126d",
+    "lanzador_sha256": "fa6b8feb9622019d497d4b4fb65325e4021feb3cb706c0c2459c5c1fa9b7538a",
+    "reconstruido": false
+  },
+  "fuentes_sha256": {
+    "herramientas/windows/inicio_windows.cs": "304a809f4b01bd3331e62c53538222ec9208798202be3f5c6ae67e6307ec5d32",
+    "herramientas/windows/transferir_propietario.cs": "f34126fa5104f9b559f22146f454ef2a91d6e8f27a8722614cb26aa652b397f6",
+    "herramientas/windows/alta_inicial_propietario.cs": "7ad925cfb490e336a82377e0ce1c86061d83b719c539eb07899b7f13373256b3",
+    ".github/scripts/probar-transferencia-propietario-windows.ps1": "5d7c319cc52588e7748ddd4a6c76eae39d487ededf83e951c5992ec5777c3d0b",
+    "config/alta-inicial-windows.json": "50e02c6ab4260a28604d8aaa0980ef7c845385af24d006134b8f4e989899ce8a"
+  },
+  "vm": {
+    "entorno": "Cristian, Windows 11 x64, cuenta normal por SSH",
+    "python": "3.14.8",
+    "powershell": "5.1.26100.9711",
+    "escenarios_correctos": 33,
+    "escenarios_totales": 33,
+    "pruebas_solo_registro_y_perfiles_sinteticos": true,
+    "diferencias_variante_ensayo": "Tres constantes de Registro sintéticas y habilitación de inyección de fallos. Mismos métodos de alta/transferencia/recuperación. Producción compilada sin inyección; no ejecutada contra Registro real.",
+    "subclaves_sinteticas_restantes": 0,
+    "procesos_radar_restantes": 0,
+    "resultado_vm_sha256": "cf16d152345e718a06cb5f235d19671866d45a4c4c8403a6df967c12c87dc976"
+  },
+  "limites": {
+    "windows1_intervenido": false,
+    "windows2_intervenido": false,
+    "oauth_consultado": false,
+    "cuentas_sincronizadas": false,
+    "licencias_activadas": false,
+    "motor_recompilado": false,
+    "catalogo_modificado": false
+  },
+  "suite_local": {
+    "python": "3.14.7",
+    "pruebas": 1446,
+    "omitidas": 12,
+    "segundos": 574.033,
+    "resultado_literal": "OK (skipped=12)",
+    "log_completo_sha256": "a9e04fc46578773237b380484a09c82f16f76a7067610d55958e275d45a5af47"
+  }
+}
