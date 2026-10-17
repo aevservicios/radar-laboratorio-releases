@@ -1,0 +1,42 @@
+{
+  "formato": 1,
+  "tipo": "mantenimiento_preferencias_residuales_no_version_producto",
+  "herramienta": {
+    "nombre": "TransferirPropietarioRadar.exe",
+    "bytes": 33280,
+    "sha256": "67f573c7814aa8a8697ee41e45186389c738d1cc761cbeabe9fe7077c16cdbc6",
+    "registro_real_ejecutado": false
+  },
+  "politica_sin_cambios_sha256": "50e02c6ab4260a28604d8aaa0980ef7c845385af24d006134b8f4e989899ce8a",
+  "fuentes_sha256": {
+    "herramientas/windows/inicio_windows.cs": "304a809f4b01bd3331e62c53538222ec9208798202be3f5c6ae67e6307ec5d32",
+    "herramientas/windows/transferir_propietario.cs": "f34126fa5104f9b559f22146f454ef2a91d6e8f27a8722614cb26aa652b397f6",
+    "herramientas/windows/alta_inicial_propietario.cs": "c95b9f6dd826f0f3143b55eff5daa94efc838752f57674e72977ef9c8dce0423",
+    ".github/scripts/probar-transferencia-propietario-windows.ps1": "0990894e03661a2cd79005ff9081da65b242cf8cec42683a3776dcd84ecb4972",
+    "config/alta-inicial-windows.json": "50e02c6ab4260a28604d8aaa0980ef7c845385af24d006134b8f4e989899ce8a"
+  },
+  "vm": {
+    "python": "3.14.8",
+    "powershell": "5.1.26100.9711",
+    "escenarios": 53,
+    "correctos": 53,
+    "solo_registro_y_perfiles_sinteticos": true,
+    "caso_1_1_y_rollback_exacto": true,
+    "restantes_subclaves_sinteticas": 0,
+    "restantes_procesos_radar": 0,
+    "resultado_sha256": "093d1e442dfbca874f4510c2381238a511a710ce7d9a595a561a2a0cbb6f3070"
+  },
+  "producto": {
+    "version": "1.0.0-pilot.1",
+    "zip_sha256": "088f884329814cb86c0cd60a04fc1e6d79f1ce48830e93a98c1a758b76fe126d",
+    "motor_zip_licencias_oauth_modificados": false,
+    "windows_1_2_intervenidos": false
+  },
+  "suite_local": {
+    "python": "3.14.7",
+    "pruebas": 1446,
+    "segundos": 574.294,
+    "resultado_literal": "OK (skipped=12)",
+    "log_completo_sha256": "d1bc7de6298e57e06b3453b434757d085fa0c3f208088f5517b07e30f17d3e5b"
+  }
+}
